@@ -1,0 +1,22 @@
+.NavbarItems {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 10px;
+  list-style-type: none;
+  text-align: center;
+  width: auto;
+  justify-content: flex-start;
+  padding-left: 101px;
+}
+
+.actionsButton {
+  padding-right: 101px;
+}

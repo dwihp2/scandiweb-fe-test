@@ -1,3 +1,7 @@
+:root {
+  --c-primary: #5ece7b;
+}
+
 .NavbarItems {
   height: 80px;
   display: flex;
@@ -18,5 +22,28 @@
 }
 
 .actionsButton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   padding-right: 101px;
+  cursor: pointer;
+}
+
+.actionsButton > .currency-switch {
+  padding: 1rem;
+}
+
+.nav-links > li,
+a {
+  color: grey;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.nav-links:focus,
+.nav-links:target {
+  color: var(--c-primary);
+  padding-bottom: 30px;
+  border-bottom: 2px solid var(--c-primary);
+  transition: all 0.2s ease;
 }

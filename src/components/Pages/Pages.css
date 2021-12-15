@@ -1,0 +1,39 @@
+.category-name h2 {
+  padding-top: 80px;
+  padding-left: 101px;
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 42px;
+}
+
+.product-grid {
+  padding-top: 103px;
+  padding-left: 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 40px;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  width: 386px;
+  height: 444px;
+  padding: 16px;
+}
+
+.product-card > img {
+  width: 354px;
+  height: 330px;
+}
+
+.product-title {
+  padding-top: 21px;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.product-price {
+  font-size: 18px;
+  font-weight: 600;
+}

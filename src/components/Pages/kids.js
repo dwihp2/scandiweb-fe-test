@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./style.css";
+import "./Pages.css";
 
 class KidsPage extends Component {
   render() {
